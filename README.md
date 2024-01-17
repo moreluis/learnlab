@@ -1,10 +1,12 @@
 # LearnLab
 
-LearnLab provides learning with flashcards &ndash; powered by AI.
+LearnLab provides learning with flashcards &ndash; **powered by AI**.
 
-Special is the capability to generate flashcards from a website.
+It has the capability to generate flashcards from a website.
 
-This is a research project, in order to demonstrate how AI can influence learning processes in education.
+> This is a <ins>research project</ins>, in order to demonstrate <ins>how AI can influence learning processes</ins> in education.
+
+https://github.com/moreluis/learnlab/assets/156832999/44f24c28-95f2-470d-95eb-550bea30e097
 
 ## Table of contents
 - [About this project](#about-this-project)
@@ -12,7 +14,7 @@ This is a research project, in order to demonstrate how AI can influence learnin
     - [Backend](#backend)
     - [Frontend](#frontend)
 - [Evaluation](#evaluation)
-- [Possible To-do's](#possible-to-do-s)
+- [Possible To-do's](#possible-to-dos)
 - [Style](#style)
 - [License](#license)
 
