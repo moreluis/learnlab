@@ -1,11 +1,7 @@
 # Linguist overrides
-*.md linguist-detectable=true
-README.md linguist-detectable=false
-readme.md linguist-detectable=false
-
-*.md linguist-vendored=false
-*.md linguist-generated=false
-*.md linguist-documentation=false
-*.md linguist-detectable=true
-
-docs/** -linguist-documentation
+*	text=auto eol=lf
+*.md	linguist-detectable
+CODE_OF_CONDUCT.md	-linguist-detectable
+LICENSE.md	-linguist-detectable
+README.md	-linguist-detectable
+PEERS_GUIDELINES.md	-linguist-detectable
