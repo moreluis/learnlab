@@ -1,27 +1,4 @@
-# LearnLab
-
-LearnLab provides learning with flashcards &ndash; powered by AI.
-
-Special is the capability to generate flashcards from a website.
-
-This is a research project, in order to demonstrate how AI can influence learning processes in education.
-
-## Table of contents
-- [About this project](#about-this-project)
-- [Setting up the project](#setting-up-the-project)
-    - [Backend](#backend)
-    - [Frontend](#frontend)
-- [Evaluation](#evaluation)
-- [Possible To-do's](#possible-to-do-s)
-- [Style](#style)
-- [License](#license)
-
-## About this project
-This project uses [Nuxt](https://nuxt.com), [Typescript](https://www.typescriptlang.org/) and [TailwindCSS](https://tailwindcss.com/) for the frontend. The backend is a REST API made with [Node.js](https://nodejs.org/) and the [Express.js Framework](https://expressjs.com/) and written in [Typescript](https://www.typescriptlang.org/). As a database, the project uses [MongoDB](https://www.mongodb.com/). It also utilizes the [Hugging Face API](https://huggingface.co/).
-
-<div style="text-align: center">
-    <img src="docs/assets/techstack.svg" style="width: 75%" />
-</div>
+# Getting started
 
 ## Setting up the project
 
@@ -146,59 +123,3 @@ npm run dev
 # Using Yarn
 yarn dev
 ```
-
-## Evaluation
-
-<details>
-  <summary>The project and the default model &ndash; <code>google/flan-t5-base</code> &ndash; was evaluated with <i>n = 76</i> question and answers.</summary>
-  <p>The evaluation was done with the following websites:
-  <ul>
-    <li>https://de.wikipedia.org/wiki/Geschichte_Englands</li>
-    <li>https://de.wikipedia.org/wiki/Vulkane_in_Island</li>
-    <li>https://de.wikipedia.org/wiki/Quantenmechanik</li>
-    <li>https://en.wikipedia.org/wiki/History_of_England</li>
-    <li>https://en.wikipedia.org/wiki/Volcanism_of_Iceland</li>
-    <li>https://en.wikipedia.org/wiki/Quantum_mechanics</li>
-  </ul>  
-  </p>
-</details>
-
-| Classification            | English | German | Cumulation |
-|---------------------------|---------|--------|------------|
-| Correct                   | 24      | 11     | 35         |
-| Minor Difference          | 2       | 10     | 12         |
-| Incorrect                 | 12      | 17     | 29         |
-| Total                     | 38      | 38     | 76         |
-
-Raw data can be found in the `./docs/assets/evaluation/` folder and is available in `CSV` and `TSV` format.
-
-## Possible To-do's
-- [ ] Enable users to upload images onto cards, showcasing or exemplifying the solution associated with each card.
-
-## Style
-
-This project uses [gitmoji](https://gitmoji.dev/) for styling git commits.
-
-Please commit your code in a clean and organized manner. Follow these guidelines:
-
-1. Write clear and descriptive commit messages
-2. Keep commits focused on specific changes
-3. Avoid committing large chunks of unrelated changes
-4. Ensure your code is well-documented
-
-## License
-This project is licensed with the `GNU AFFERO GENERAL PUBLIC LICENSE` (AGPL). This diff representation helps illustrate the key points of the AGPL, showing what you can and cannot do under the license[^1]:
-
-```diff
-- Use in proprietary applications without disclosing source code.
-- Combine with proprietary software to create a larger proprietary app.
-
-+ Use for any purpose, including commercial.
-+ Modify and distribute source code.
-+ Use internally without source code disclosure.
-+ Convey over a network (triggers copyleft).
-+ Run network services without source code disclosure, but provide AGPL source code upon request.
-
-```
-
-[^1]: **Note:** The shown representation is for illustrative purposes only. It is crucial to thoroughly review the actual GNU Affero General Public License (AGPL) to understand the terms and conditions. This diff is not intended to be a legally binding interpretation, and any decisions or actions should be based on the official license text.

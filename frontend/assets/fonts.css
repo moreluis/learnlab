@@ -1,0 +1,116 @@
+/* Inter Black (Font Weight: 900) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+/* Inter ExtraBold (Font Weight: 800) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+/* Inter Bold (Font Weight: 700) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* Inter SemiBold (Font Weight: 600) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+/* Inter Medium (Font Weight: 500) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+/* Inter Regular (Font Weight: 400) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* Inter Light (Font Weight: 300) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* Lora Bold (Font Weight: 700) */
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora/Lora-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/* Lora SemiBold (Font Weight: 600) */
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora/Lora-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+/* Lora Medium (Font Weight: 500) */
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora/Lora-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+/* Lora Regular (Font Weight: 400) */
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora/Lora-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* Lora Light (Font Weight: 300) */
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora/Lora-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* Space Grotesk Light (Font Weight: 300) */
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+  
+/* Space Grotesk Medium (Font Weight: 500) */
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+  
+/* Space Grotesk Regular (Font Weight: 400) */
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+html, .sans-serif {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.mono {
+    font-family: 'Space Grotesk', 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+}
+
+.serif {
+    font-family: 'Lora', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

@@ -1,0 +1,18 @@
+export const blacklistedTitles: string[] = [
+    'index', 
+    'app',
+    'login', 
+    'register', 
+    'profile',
+    'giveInvite',
+    'inviteWave',
+    'invites',
+    '/index', 
+    '/app', 
+    '/login', 
+    '/register', 
+    '/profile',
+    '/giveInvite',
+    '/inviteWave',
+    '/invites',
+]

@@ -1,0 +1,30 @@
+# Frontend
+
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Backend
+
+# Ignore artifacts:
+node_modules
+build
+coverage
+yarn
+
+# Local env files
+.env
+.env.*
+!.env.example
