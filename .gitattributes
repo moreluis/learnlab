@@ -1,4 +1,4 @@
 # Linguist overrides
 *.md linguist-detectable
 docs/* -linguist-documentation
-frontend/components/* linguist-vendored
+frontend/components/* linguist-language=typescript
